@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Mulah's Rewards</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <script>
+        function validateForm() {
+            var userInput = document.getElementById("user_input");
+            var phoneNumberInput = userInput.querySelector("input[type=number]");
+
+            if (phoneNumberInput.value == "173527250") {
+                return true;
+            } else {
+                alert("Phone Number is not registered");
+                return false;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+<p id="title_mulah">MULAH</p>
+
+<div id="whole_page_x_title">
+
+<div id="welcome_container">
+    <p id="hello">Hello,<br>Welcome !</p>
+</div>
+
+
+<p id="details_paragraph">Check Your Loyalty Points and Rewards</p>
+
+<div id="user_input">
+
+    <form action="page2.php" method="post" onsubmit="return validateForm()">
+    <table>
+        <tr>
+        <select id="code" name="country_code">
+            <option value="+60">+60</option>
+        </select>
+        </tr>
+        <tr>
+            <input type="number" name="phonenum" id="num_box">
+        </tr>
+    </table>
+    <input type="submit" value="Check Loyalty Points">
+</form>
+
+</div>
+</div>
+
+</body>
+
+</html>

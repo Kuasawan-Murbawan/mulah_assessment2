@@ -1,0 +1,104 @@
+@import url(https://db.onlinewebfonts.com/c/1be1f31c94ba148427b422c0f7fb1fc9?family=Guess+Sans+W00+Ultra);
+@import url(https://db.onlinewebfonts.com/c/5858c836a696c34b4f3b2aabfaebe462?family=Arno+Pro+Semibold+Caption);
+@import url(https://db.onlinewebfonts.com/c/785709c3ae46131dc5781ea4a30f091e?family=Wien+Pro+Unic+W00+Regular);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#title_mulah {
+  font-size: 50px;
+  font-family: "Guess Sans W00 Ultra";
+  text-align: center;
+  margin-top: 20px;
+  color: #f17424;
+  height: 80%;
+}
+
+#welcome_container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#whole_page_x_title {
+  height: 300px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#hello {
+  font-size: 40px;
+  font-family: "Arno Pro Semibold Caption";
+  color: rgb(87, 93, 93);
+}
+
+#details_paragraph {
+  font-size: 25px;
+  text-align: left;
+  font-family: "Wien Pro Unic W00 Regular";
+  color: #f17424;
+}
+
+#user_input {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#num_box {
+  float: right;
+  width: 80%;
+  height: 20px;
+}
+
+#code {
+  float: left;
+  width: 50px;
+  height: 20px;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  background-color: #f17424;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 60%;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+@media only screen and (max-width: 640px) {
+  /* Adjust styles for screens up to 640px wide */
+
+  body {
+    font-size: 14px;
+  }
+
+  .title_mulah {
+    font-size: 18px;
+  }
+
+  .welcome {
+    font-size: 14px;
+  }
+
+  #details_paragraph {
+    font-size: 14px;
+  }
+
+  #user_input {
+    margin-top: 10px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
